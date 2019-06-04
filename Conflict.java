@@ -1,5 +1,12 @@
 public class Hello{
 	public static void main(String[] args){
-		System.out.println("Hello Would");
+		Random rnd=new Random();
+
+		int a=rnd.nextInt(100);
+
+		
+		for(i=0;i<10;i++){
+		System.out.println(a);
+		}
 	}
 }
